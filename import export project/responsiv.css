@@ -1,0 +1,88 @@
+@media only screen and (min-width:1025px){
+    .businessdetails,.business2img,.business1img {
+        width: 50%;
+    }
+}
+@media only screen and (max-width:1024px){
+    .about .about2 h1 {
+        line-height: 50px;
+    }
+    .button2 button,.business1 .button3 button,.business2 .button4 button{
+        width: 250px;
+    }
+    .wrapper .carousell{
+        grid-auto-columns: calc(100% - 12px);
+    }
+    .business_details_div,.business_details_div_second{
+        flex-direction: column-reverse;
+    }
+    .business1 .business1img img,.business2 .business2img img{
+        width: 100%;
+    }
+    .careers .job1 .applybutton, .careers .job2 .applybutton{
+        position: unset;
+    }
+    .careers .job1 .box, .careers .job2 .box{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .contactus .contactustagline2{
+        font-size: 40px;
+    }
+    .contactus .contactname{
+        flex-direction: column;
+    }
+    form.form{
+        display: flex;
+    flex-direction: column;
+    }
+    .logo img{
+        height: unset;
+        width: 180px;
+    }
+    .main{
+        padding: 0 20px;
+    }
+    .menu-toggle,.menu-toggle .bar{
+        display: block;
+    }
+    ul.ul {
+        display: none;
+        flex-direction: column;
+        background: white;
+        height: auto;
+        width: 100%;
+        margin: unset;
+        position: absolute;
+        top: 95px;
+        left: 0;
+        padding: 20px;
+    }
+    .home .tagline1, .home .tagline2{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .main_video_section {
+        /* position: unset; */
+        padding: 50px 5px;
+        margin-top: 70px;
+        font-size: 15px;
+    }
+    .home .tagline1, .home .tagline2{
+        font-size: 15px;
+    }
+    .button1 button{
+        width: 180px;
+        font-size: 10px;
+        padding-block: 5px;
+        letter-spacing: 0px;
+        padding-inline:  5px;
+        height: unset;
+
+    }
+    .home .tagline2,.tagline1 span{
+        color: white;
+    }
+}
